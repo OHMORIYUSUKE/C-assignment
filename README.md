@@ -47,3 +47,24 @@ docker compose exec app ./c.sh hello.c
 ```sh
 docker compose exec app ./c.sh sin.c -lm
 ```
+
+---
+
+## メモ(コンテナ内で作業するとき)
+
+docker-compose exec app bash
+
+## メモ(言語のインストール)
+
+```sh
+# C インストール
+sudo apt-get install gcc
+
+# Java インストール
+sudo apt-get install default-jre
+
+sudo apt install default-jdk
+
+# Python インストール
+sudo apt-get install python3
+```
