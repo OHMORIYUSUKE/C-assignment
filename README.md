@@ -68,3 +68,21 @@ sudo apt install default-jdk
 # Python インストール
 sudo apt-get install python3
 ```
+
+```
+
+docker compose exec app gcc hello.c
+
+docker compose exec app ./a.out
+
+docker compose exec app javac HelloWorld.java
+
+docker compose exec app java HelloWorld
+
+docker compose exec app python3 hello_world.py
+
+```
+
+```
+sudo apt-get install vim
+```
